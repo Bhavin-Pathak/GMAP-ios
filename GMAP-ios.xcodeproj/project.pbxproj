@@ -7,19 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		090E68472AB42A5D00DE2DF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090E68462AB42A5D00DE2DF4 /* AppDelegate.swift */; };
+		090E68492AB42B0600DE2DF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090E68482AB42B0600DE2DF4 /* ViewController.swift */; };
+		090E684B2AB42B6500DE2DF4 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 090E684A2AB42B6500DE2DF4 /* Storyboard.storyboard */; };
+		090E684D2AB42CB700DE2DF4 /* MapViewControllerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090E684C2AB42CB700DE2DF4 /* MapViewControllerWrapper.swift */; };
 		09BC1AA02AB41F810042FB13 /* GMAP_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BC1A9F2AB41F810042FB13 /* GMAP_iosApp.swift */; };
 		09BC1AA22AB41F810042FB13 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BC1AA12AB41F810042FB13 /* ContentView.swift */; };
 		09BC1AA42AB41F840042FB13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09BC1AA32AB41F840042FB13 /* Assets.xcassets */; };
 		09BC1AA82AB41F840042FB13 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09BC1AA72AB41F840042FB13 /* Preview Assets.xcassets */; };
+		F0A831E8E9128B97467DDB56 /* Pods_GMAP_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42EA4EEBE36ED8323791D1AE /* Pods_GMAP_ios.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		090E68462AB42A5D00DE2DF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		090E68482AB42B0600DE2DF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		090E684A2AB42B6500DE2DF4 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		090E684C2AB42CB700DE2DF4 /* MapViewControllerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewControllerWrapper.swift; sourceTree = "<group>"; };
+		096C883F2D54CDA8A3006D3A /* Pods-GMAP-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMAP-ios.debug.xcconfig"; path = "Target Support Files/Pods-GMAP-ios/Pods-GMAP-ios.debug.xcconfig"; sourceTree = "<group>"; };
 		09BC1A9C2AB41F810042FB13 /* GMAP-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GMAP-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09BC1A9F2AB41F810042FB13 /* GMAP_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMAP_iosApp.swift; sourceTree = "<group>"; };
 		09BC1AA12AB41F810042FB13 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		09BC1AA32AB41F840042FB13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09BC1AA52AB41F840042FB13 /* GMAP_ios.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GMAP_ios.entitlements; sourceTree = "<group>"; };
 		09BC1AA72AB41F840042FB13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		09BC1AAF2AB426760042FB13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		42EA4EEBE36ED8323791D1AE /* Pods_GMAP_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GMAP_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9A0A90A634481F923EC30DC /* Pods-GMAP-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMAP-ios.release.xcconfig"; path = "Target Support Files/Pods-GMAP-ios/Pods-GMAP-ios.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0A831E8E9128B97467DDB56 /* Pods_GMAP_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +52,8 @@
 			children = (
 				09BC1A9E2AB41F810042FB13 /* GMAP-ios */,
 				09BC1A9D2AB41F810042FB13 /* Products */,
+				982AD431C29D9008CFF8A6C6 /* Pods */,
+				A3E182AD323C43F5B6C4F6A0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,9 +68,14 @@
 		09BC1A9E2AB41F810042FB13 /* GMAP-ios */ = {
 			isa = PBXGroup;
 			children = (
+				090E68462AB42A5D00DE2DF4 /* AppDelegate.swift */,
+				090E68482AB42B0600DE2DF4 /* ViewController.swift */,
+				090E684A2AB42B6500DE2DF4 /* Storyboard.storyboard */,
+				090E684C2AB42CB700DE2DF4 /* MapViewControllerWrapper.swift */,
 				09BC1A9F2AB41F810042FB13 /* GMAP_iosApp.swift */,
 				09BC1AA12AB41F810042FB13 /* ContentView.swift */,
 				09BC1AA32AB41F840042FB13 /* Assets.xcassets */,
+				09BC1AAF2AB426760042FB13 /* Info.plist */,
 				09BC1AA52AB41F840042FB13 /* GMAP_ios.entitlements */,
 				09BC1AA62AB41F840042FB13 /* Preview Content */,
 			);
@@ -69,6 +90,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		982AD431C29D9008CFF8A6C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				096C883F2D54CDA8A3006D3A /* Pods-GMAP-ios.debug.xcconfig */,
+				D9A0A90A634481F923EC30DC /* Pods-GMAP-ios.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A3E182AD323C43F5B6C4F6A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42EA4EEBE36ED8323791D1AE /* Pods_GMAP_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +114,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09BC1AAB2AB41F850042FB13 /* Build configuration list for PBXNativeTarget "GMAP-ios" */;
 			buildPhases = (
+				C3E96FDC0BDA25059EA570BB /* [CP] Check Pods Manifest.lock */,
 				09BC1A982AB41F810042FB13 /* Sources */,
 				09BC1A992AB41F810042FB13 /* Frameworks */,
 				09BC1A9A2AB41F810042FB13 /* Resources */,
+				4D585612BB651AB00D25FCE7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,17 +169,63 @@
 			files = (
 				09BC1AA82AB41F840042FB13 /* Preview Assets.xcassets in Resources */,
 				09BC1AA42AB41F840042FB13 /* Assets.xcassets in Resources */,
+				090E684B2AB42B6500DE2DF4 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D585612BB651AB00D25FCE7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GMAP-ios/Pods-GMAP-ios-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GMAP-ios/Pods-GMAP-ios-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GMAP-ios/Pods-GMAP-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3E96FDC0BDA25059EA570BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GMAP-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		09BC1A982AB41F810042FB13 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				090E68472AB42A5D00DE2DF4 /* AppDelegate.swift in Sources */,
 				09BC1AA22AB41F810042FB13 /* ContentView.swift in Sources */,
+				090E684D2AB42CB700DE2DF4 /* MapViewControllerWrapper.swift in Sources */,
+				090E68492AB42B0600DE2DF4 /* ViewController.swift in Sources */,
 				09BC1AA02AB41F810042FB13 /* GMAP_iosApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +344,7 @@
 		};
 		09BC1AAC2AB41F850042FB13 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 096C883F2D54CDA8A3006D3A /* Pods-GMAP-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -269,6 +356,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GMAP-ios/Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -296,6 +385,7 @@
 		};
 		09BC1AAD2AB41F850042FB13 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9A0A90A634481F923EC30DC /* Pods-GMAP-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -307,6 +397,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GMAP-ios/Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
