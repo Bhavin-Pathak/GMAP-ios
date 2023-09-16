@@ -1,3 +1,0 @@
-# GMAP-ios
-GoogleMap-ios 
-
