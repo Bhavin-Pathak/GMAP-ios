@@ -12,7 +12,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     
     
-    
+    //MARK: Call Map Location Instance Here As A Variable
     let locationManager = CLLocationManager()
     
     override func viewDidLoad() {
@@ -26,7 +26,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         print("License \n \n \(GMSServices.openSourceLicenseInfo())")
     }
     
-    //MARK: Functions Here's
+    //MARK: Allow Location Or View Delegate Permission
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         guard let location = locations.first
         else{
@@ -45,7 +45,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         marker.map = mapView
         
     }
-    
+    //MARK: Error Handel Here
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
         print(error.localizedDescription)
     }
