@@ -15,7 +15,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     // Override point for customization after application launch.
+      
+    //MARK: Initilize Google Map On App Delegate
     GMSServices.provideAPIKey("AIzaSyAKI2FTFyc4k7OOIAK7kwhaJ9OFJBT6tNE")
+      
     return true
   }
   
